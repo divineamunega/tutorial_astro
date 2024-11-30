@@ -11,6 +11,7 @@ const username = "divineamunega";
       display: flex;
       gap: 1rem;
       margin-top: 2rem;
+      align-items: center;
     }
 </style>
 
@@ -18,7 +19,9 @@ const username = "divineamunega";
 <footer>
   <p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
 
-  <Social platform="twitter" username="div_x_" />
-  <Social platform="github" username="divineamunega" />
-  <Social platform="tg" username="divinne_tg" />
+  <div>
+      <Social platform="twitter" username="div_x_" />
+      <Social platform="github" username="divineamunega" />
+      <Social platform="tg" username="divinne_tg" />
+    </div>
 </footer>
